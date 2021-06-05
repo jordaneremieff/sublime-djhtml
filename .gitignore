@@ -124,5 +124,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.DS_Stor
+.DS_Store
 .idea
