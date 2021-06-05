@@ -1,4 +1,4 @@
-# Sublime-DjHTML
+# Sublime DjHTML
 
 A plugin for Sublime Text to integrate [DjHTML](https://github.com/rtts/djhtml).
 

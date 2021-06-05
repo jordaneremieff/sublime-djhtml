@@ -5,7 +5,7 @@ from sublime import load_settings
 from .vendor.djhtml.modes import DjHTML
 
 
-SETTINGS = load_settings("sublime-djhtml.sublime-settings")
+SETTINGS = load_settings("sublime_djhtml.sublime-settings")
 
 
 class DjhtmlIndentCommand(sublime_plugin.TextCommand):
