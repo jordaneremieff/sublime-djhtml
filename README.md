@@ -26,4 +26,4 @@ This plugin can be cloned into the `Packages/` directory of Sublime Text:
 git clone https://github.com/jordaneremieff/sublime_djhtml
 ```
 
-*Note*: This plugin is new and might be buggy, if you encounter anything problems please open an issue.
+*Note*: This plugin is new and might be buggy, if you encounter any problems please open an issue.
