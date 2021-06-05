@@ -2,7 +2,7 @@ import sublime
 import sublime_plugin
 from sublime import load_settings
 
-from .vendor.djhtml.modes import DjHTML
+from vendor.djhtml.modes import DjHTML
 
 
 SETTINGS = load_settings("sublime_djhtml.sublime-settings")
