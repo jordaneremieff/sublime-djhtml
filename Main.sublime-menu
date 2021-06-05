@@ -11,7 +11,7 @@
               { "caption": "Settings",
                 "command": "edit_settings",
                 "args": {
-                  "base_file": "${packages}/sublime_djhtml/sublime-djhtml.sublime-settings",
+                  "base_file": "${packages}/sublime_djhtml/sublime_djhtml.sublime-settings",
                   "default": "{\n\t$0\n}\n"
                 }
               },
