@@ -1,0 +1,26 @@
+[
+  { "caption": "Preferences: DjHTML",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/sublime_djhtml/sublime-djhtml.sublime-settings",
+      "default": "{\n\t$0\n}\n"
+    }
+  },
+  { "caption": "Preferences: DjHTML Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/sublime_djhtml/Default (${platform}).sublime-keymap",
+      "default": "[\n\t$0\n]\n"
+    }
+  },
+  { "caption": "DjHTML: Open Readme",
+    "command": "open_file",
+    "args": {
+      "file": "${packages}/sublime_djhtml/README.md"
+    }
+  },
+  {
+      "caption": "DjHTML: Indent File",
+      "command": "djhtml_indent"
+  }
+]
