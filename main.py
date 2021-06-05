@@ -1,8 +1,12 @@
+import os
+import sys
 import sublime
 import sublime_plugin
 from sublime import load_settings
 
-from .vendor.djhtml.modes import DjHTML
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from vendor.djhtml.modes import DjHTML
 
 SETTINGS = load_settings("sublime_djhtml.sublime-settings")
 
@@ -12,7 +16,8 @@ class DjhtmlIndentCommand(sublime_plugin.TextCommand):
         tabwidth = SETTINGS.get("tabwidth", 4)
         region = sublime.Region(0, self.view.size())
         file_data = self.view.substr(region)
-        self.view.replace(edit, region, DjHTML(file_data).indent(tabwidth))
+        indented = DjHTML(file_data).indent(tabwidth)
+        self.view.replace(edit, region, indented)
 
 
 class DjhtmlIndentOnSaveListener(sublime_plugin.EventListener):
