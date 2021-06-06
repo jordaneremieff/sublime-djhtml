@@ -1,6 +1,6 @@
 # Sublime DjHTML
 
-A plugin for Sublime Text to integrate [DjHTML](https://github.com/rtts/djhtml).
+A plugin for Sublime Text to integrate [DjHTML](https://github.com/rtts/djhtml) (pure-Python Django/Jinja template indenter).
 
 - `tabwidth` (default=`4`):
 
@@ -10,7 +10,7 @@ A plugin for Sublime Text to integrate [DjHTML](https://github.com/rtts/djhtml).
 
     Run indentation automatically on file save.
 
-- `enabled_syntax` (default=`[Packages/HTML/HTML.sublime-syntax, Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage]`)
+- `enabled_syntax` (default=`["Packages/HTML/HTML.sublime-syntax", "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"]`)
 
     A list of file [syntax definitions](https://www.sublimetext.com/docs/syntax.html) eligible for auto-indentation when `indent_on_save` is enabled.
 
@@ -26,4 +26,5 @@ This plugin can be cloned into the `Packages/` directory of Sublime Text:
 git clone https://github.com/jordaneremieff/sublime_djhtml
 ```
 
-*Note*: This plugin is new and might be buggy, if you encounter any problems please open an issue.
+
+If you encounter any problems, please open an issue.

@@ -13,12 +13,6 @@
       "default": "[\n\t$0\n]\n"
     }
   },
-  { "caption": "DjHTML: Open Readme",
-    "command": "open_file",
-    "args": {
-      "file": "${packages}/sublime_djhtml/README.md"
-    }
-  },
   {
       "caption": "DjHTML: Indent File",
       "command": "djhtml_indent"
