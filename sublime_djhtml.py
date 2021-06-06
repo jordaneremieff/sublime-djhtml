@@ -5,12 +5,13 @@ import logging
 import sublime
 import sublime_plugin
 
-
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from vendor.djhtml.__main__ import verify_changed
 from vendor.djhtml.modes import DjHTML
 
+__version__ = "0.1.0"
+__version_info__ = (0, 1, 0)
 
 logger = logging.getLogger("DjHTML")
 

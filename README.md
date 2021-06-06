@@ -2,6 +2,8 @@
 
 A plugin for Sublime Text to integrate [DjHTML](https://github.com/rtts/djhtml) (pure-Python Django/Jinja template indenter).
 
+*Requirements*: Sublime Text 4
+
 - `tabwidth` (default=`4`):
 
     The number of spaces used in the indentation.
