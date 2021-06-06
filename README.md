@@ -2,6 +2,8 @@
 
 A plugin for [Sublime Text](https://www.sublimetext.com/) that integrates [DjHTML](https://github.com/rtts/djhtml) to provide auto-indentation for Django/Jinja templates.
 
+**Requirements**: Sublime Text 4
+
 ## Installation
 
 This plugin can be cloned into the `Packages/` directory of Sublime Text:
@@ -29,9 +31,6 @@ As an example, consider a template that looks like this:
 Running the auto-indent command will process the current file using DjHTML and update the editor directly:
 
 <img width="280" alt="Screen Shot 2021-06-06 at 3 12 07 pm" src="https://user-images.githubusercontent.com/1376648/120913354-d8a7a380-c6d9-11eb-9289-0807130db145.png">
-
-**Requirements**: Sublime Text 4
-
 
 ## Settings
 
