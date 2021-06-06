@@ -18,7 +18,7 @@ git clone https://github.com/jordaneremieff/sublime_djhtml
 
 The auto-indent command can be applied in a different few ways:
 
-- From the Command Palette and selecting `DjHTML: Indent File`
+- From the Command Palette by selecting `DjHTML: Indent File`
 - Using a keyboard shortcut (default `ctrl + shift + i`)
 - Configuring the `indent_on_save` setting (see settings section below)
 
